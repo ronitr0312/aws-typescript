@@ -1,0 +1,27 @@
+{
+  "name": "cdk-starter",
+  "version": "0.1.0",
+  "bin": {
+    "cdk-starter": "bin/cdk-starter.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30",
+    "@types/node": "^24.12.2",
+    "aws-cdk": "2.1117.0",
+    "jest": "^30",
+    "ts-jest": "^29",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.9.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.247.0",
+    "constructs": "^10.5.0"
+  }
+}
